@@ -7,7 +7,7 @@ in **Cursor** and **Grok Bot**.
 Bundles:
 
 - **MCP server** — `https://mcp.pingram.io` by default (OAuth; same account as the dashboard)
-- **Skill** — how to call email / SMS / account tools correctly
+- **Skills** — MCP usage plus Pingram product skills (getting started, email, SMS, voice, inbound, webhooks, broadcasts, users)
 
 ## Regions
 
