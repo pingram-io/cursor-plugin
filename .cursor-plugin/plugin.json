@@ -1,0 +1,13 @@
+{
+  "name": "pingram",
+  "version": "1.0.0",
+  "description": "Send email and SMS and manage a Pingram account from Cursor and Grok Bot via hosted MCP.",
+  "author": {
+    "name": "Pingram",
+    "email": "support@pingram.io"
+  },
+  "homepage": "https://www.pingram.io/docs/integrations/mcp",
+  "repository": "https://github.com/pingram-io/cursor-plugin",
+  "license": "MIT",
+  "keywords": ["pingram", "email", "sms", "notifications", "mcp", "grok-bot"]
+}
