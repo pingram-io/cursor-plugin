@@ -6,8 +6,23 @@ in **Cursor** and **Grok Bot**.
 
 Bundles:
 
-- **MCP server** — `https://mcp.pingram.io` (OAuth; same account as the dashboard)
+- **MCP server** — `https://mcp.pingram.io` by default (OAuth; same account as the dashboard)
 - **Skill** — how to call email / SMS / account tools correctly
+
+## Regions
+
+Use the MCP URL for the **same region as your Pingram account**:
+
+| Region        | MCP URL                       |
+| ------------- | ----------------------------- |
+| Default (US)  | `https://mcp.pingram.io`      |
+| Canada        | `https://mcp.ca.pingram.io`   |
+| EU            | `https://mcp.eu.pingram.io`   |
+
+This plugin’s `mcp.json` points at the default (US) host. If your account is in
+Canada or the EU, add that region’s URL instead (Plugins / MCP settings, or ask
+Grok Bot to add it) and complete OAuth there — the wrong region will not see
+your account.
 
 ## Install
 
@@ -27,7 +42,7 @@ Bundles:
 }
 ```
 
-Regional URLs: `https://mcp.ca.pingram.io` (Canada), `https://mcp.eu.pingram.io` (EU).
+Swap the URL for Canada or EU using the [Regions](#regions) table above.
 
 ## Try it
 
