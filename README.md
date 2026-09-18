@@ -55,6 +55,10 @@ Swap the URL for Canada or EU using the [Regions](#regions) table above.
 - [MCP guide](https://www.pingram.io/docs/integrations/mcp)
 - [Pingram](https://www.pingram.io)
 
+## Updating skills
+
+Product skills under `skills/pingram-*` are copied from [`pingram-io/skills`](https://github.com/pingram-io/skills). When those change, re-copy the relevant folders into this repo (keep `skills/pingram` — the MCP skill — as-is).
+
 ## Develop locally
 
 ```bash
